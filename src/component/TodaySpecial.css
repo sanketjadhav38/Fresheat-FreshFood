@@ -1,8 +1,8 @@
 .TodaySpecial-section{
-    background-image: url('/Image/Background-Images/offer-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 50px;
+    background-image: url('/Image/Background-Images/bg-header.jpg');
 }
 .TodaySpecialImg1{
     padding-top: 100px;
