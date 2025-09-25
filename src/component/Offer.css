@@ -5,7 +5,7 @@
 .offer-card{
     padding-top: 80px;
     height: 600px;
-    background-image: url("./Image/Background-Images/offer-bg.jpg");
+    background-image: url("/Image/Background-Images/offer-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border: 10px solid #F4F1EA ;
