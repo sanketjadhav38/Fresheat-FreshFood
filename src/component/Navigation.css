@@ -5,7 +5,7 @@
     color: black;
 }
 .main-nav{
-    background-color: #010F1C;
+    background-color: red;
     padding: 30px 20px 30px 20px;
     display: flex;
     flex-direction: row;
