@@ -18,7 +18,7 @@ const App= ()=>{
         const links=["Home","About Us","Shop","Page","Blog","Contact us"]
         const icons=["bi bi-search","bi bi-bag"]
         const ListIcon="bi bi-list";
-        const ListImg="./Image/Illustration/imgi_1_logo.svg";
+        const ListImg="/Image/Illustration/imgi_1_logo.svg";
         
 
 
@@ -28,63 +28,63 @@ const App= ()=>{
                 carouselPara: "WELCOME FRESHEAT",
                 carouselh1: "SPICY FRIED CHICKEN",
                 carouselbtn: "ORDER NOW",
-                carouselImg: "./Image/Illustration/imgi_21_bannerThumb1_1.png"
+                carouselImg: "/Image/Illustration/imgi_21_bannerThumb1_1.png"
             },
             {
                 active:"carousel-item ",
                 carouselPara: "WELCOME FRESHEAT",
                 carouselh1: "CHINCAGO DEEP BURGER KING",
                 carouselbtn: "ORDER NOW",
-                carouselImg: "./Image/Illustration/imgi_22_bannerThumb1_2.png"
+                carouselImg: "/Image/Illustration/imgi_22_bannerThumb1_2.png"
             },
             {
                 active:"carousel-item ",
                 carouselPara: "WELCOME FRESHEAT",
                 carouselh1: "SPICY FRIED CHICKEN",
                 carouselbtn: "ORDER NOW",
-                carouselImg: "./Image/Illustration/imgi_20_bannerThumb1_3.png"
+                carouselImg: "/Image/Illustration/imgi_20_bannerThumb1_3.png"
             }
             ];
 
     const PopularFoodTitle="Best Food"
     const PopularFoodHeading="Popular Food Items"
-    const PopularFoodBurger="./Image/Illustration/Burger-sticker.png";
-    const PopularFoodChilli="./Image/Illustration/chilli (1).png";
+    const PopularFoodBurger="/Image/Illustration/Burger-sticker.png";
+    const PopularFoodChilli="/Image/Illustration/chilli (1).png";
 
     const PopularFoodData=[
         {
-            dish1Img:"./Image/Illustration/Popular-Food (1).png",
+            dish1Img:"/Image/Illustration/Popular-Food (1).png",
             dish1Name:"Chicken Pizza",
             dish1Fee:"The Registration Fee",
             dish1Price:"Rs.250"
         },
         {
-            dish1Img:"./Image/Illustration/Popular-Food (2).png",
+            dish1Img:"/Image/Illustration/Popular-Food (2).png",
             dish1Name:"Veg Pasta",
             dish1Fee:"The Registration Fee",
             dish1Price:"Rs.150"
         },
         {
-            dish1Img:"./Image/Illustration/Popular-Food (3).png",
+            dish1Img:"/Image/Illustration/Popular-Food (3).png",
             dish1Name:"Chicken Pasta",
             dish1Fee:"The Registration Fee",
             dish1Price:"Rs.350"
         },
         {
-            dish1Img:"./Image/Illustration/Popular-Food (4).png",
+            dish1Img:"/Image/Illustration/Popular-Food (4).png",
             dish1Name:"Chicken Tandori",
             dish1Fee:"The Registration Fee",
             dish1Price:"Rs.450"
         },
         {
             comment:"d-none d-md-block",
-            dish1Img:"./Image/Illustration/Popular-Food (4).png",
+            dish1Img:"/Image/Illustration/Popular-Food (4).png",
             dish1Name:"Chicken Tandori",
             dish1Fee:"The Registration Fee",
             dish1Price:"Rs.450"
         },
         {
-            dish1Img:"./Image/Illustration/Popular-Food (1).png",
+            dish1Img:"/Image/Illustration/Popular-Food (1).png",
             dish1Name:"Chicken Pizza",
             dish1Fee:"The Registration Fee",
             dish1Price:"Rs.250"
@@ -97,27 +97,27 @@ const App= ()=>{
             offerDish:"SPICY FRIED CHICKEN",
             offerTime:"Limits Time Offer",
             offerBtn:"ORDER NOW",
-            offerimg:"./Image/Illustration/offer-img (2).png"
+            offerimg:"/Image/Illustration/offer-img (2).png"
         },
         {
             offertitle:"WELCOME FRESHEAT",
             offerDish:"TODAY SPACIAL FOOD",
             offerTime:"Limits Time Offer",
             offerBtn:"ORDER NOW",
-            offerimg:"./Image/Illustration/offer-img (3).png"
+            offerimg:"/Image/Illustration/offer-img (3).png"
         },
         {
             offertitle:"ON THIS WEEK",
             offerDish:"SPECIAL CHICKEN ROLL",
             offerTime:"Limits Time Offer",
             offerBtn:"ORDER NOW",
-            offerimg:"./Image/Illustration/offer-img (1).png"
+            offerimg:"/Image/Illustration/offer-img (1).png"
         },
 
     ]
 
-    const aboutImgLeft="./Image/Illustration/About Us img (4).png"
-    const aboutImgRight="./Image/Illustration/About Us img (1).png"
+    const aboutImgLeft="/Image/Illustration/About Us img (4).png"
+    const aboutImgRight="/Image/Illustration/About Us img (1).png"
     const aboutTitle="About US"
     const aboutHeading="Variety of flavours from american cuisine"
     const aboutDetail="It is a long established fact that a reader will be distracted the readable content of a page when looking at layout the point established fact that"
@@ -129,42 +129,42 @@ const App= ()=>{
     const BestSellingData=[
         {
             dishLike:"bi bi-heart",
-            dishImg:"./Image/Illustration/Selling dish (2).png",
+            dishImg:"/Image/Illustration/Selling dish (2).png",
             dishName:"Chicken Fried Rice",
             dishFee:"The Registration Fee",
             dishPrice:"Rs.349.99"
         },
         {
             dishLike:"bi bi-heart",
-            dishImg:"./Image/Illustration/Selling dish (1).png",
+            dishImg:"/Image/Illustration/Selling dish (1).png",
             dishName:"Chinese Pasta",
             dishFee:"The Registration Fee",
             dishPrice:"Rs.199.99"
         },
         {
             dishLike:"bi bi-heart",
-            dishImg:"./Image/Illustration/Selling dish (4).png",
+            dishImg:"/Image/Illustration/Selling dish (4).png",
             dishName:"Chicken Pizza",
             dishFee:"The Registration Fee",
             dishPrice:"Rs.249.99"
         },
         {
             dishLike:"bi bi-heart",
-            dishImg:"./Image/Illustration/Selling dish (3).png",
+            dishImg:"/Image/Illustration/Selling dish (3).png",
             dishName:"Chicken Noodles",
             dishFee:"The Registration Fee",
             dishPrice:"Rs.159.99"
         },
         {
             dishLike:"bi bi-heart",
-            dishImg:"./Image/Illustration/Selling dish (5).png",
+            dishImg:"/Image/Illustration/Selling dish (5).png",
             dishName:"Grilled Chicken",
             dishFee:"The Registration Fee",
             dishPrice:"Rs.449.99"
         },
         {
             dishLike:"bi bi-heart",
-            dishImg:"./Image/Illustration/Selling dish (2).png",
+            dishImg:"/Image/Illustration/Selling dish (2).png",
             dishName:"Chicken Fried Rice",
             dishFee:"The Registration Fee",
             dishPrice:"Rs.349.99"
@@ -177,8 +177,8 @@ const App= ()=>{
     const TodaySpecialHeading="TODAY SPACIAL FOOD";
     const TodaySpecialTime="Limits Time Offer";
     const TodaySpecialBtn="ORDER NOW ";
-    const TodaySpecialImg="./Image/Illustration/TodaySpecialMainimg.png";
-    const TodaySpecialTomato="./Image/Illustration/TodaySpeciaImg (3).png";
+    const TodaySpecialImg="/Image/Illustration/TodaySpecialMainimg.png";
+    const TodaySpecialTomato="/Image/Illustration/TodaySpeciaImg (3).png";
 
 
     const FoodMenuTitle="FOOD MENU";
@@ -186,80 +186,80 @@ const App= ()=>{
 
     const FoodMenuChoice =[
         {
-           FoodMenuChoiceImg:"./Image/Illustration/imgi_58_menuIcon1_1.png",
+           FoodMenuChoiceImg:"/Image/Illustration/imgi_58_menuIcon1_1.png",
            FoodMenuChoiceName:"Fast Food",
         },
         {
-           FoodMenuChoiceImg:"./Image/Illustration/imgi_59_menuIcon1_2.png",
+           FoodMenuChoiceImg:"/Image/Illustration/imgi_59_menuIcon1_2.png",
            FoodMenuChoiceName:"Drinks & Juice",
         },
         {
-           FoodMenuChoiceImg:"./Image/Illustration/imgi_60_menuIcon1_3.png",
+           FoodMenuChoiceImg:"/Image/Illustration/imgi_60_menuIcon1_3.png",
            FoodMenuChoiceName:"Chicken Pizza",
         },
         {
-           FoodMenuChoiceImg:"./Image/Illustration/imgi_61_menuIcon1_4.png",
+           FoodMenuChoiceImg:"/Image/Illustration/imgi_61_menuIcon1_4.png",
            FoodMenuChoiceName:"Fresh Pasta",
         },
     ]
 
     const FoodMenuCard=[
         {
-            FoodMenuImg:"./Image/Illustration/Foodmenucard (1).png",
+            FoodMenuImg:"/Image/Illustration/Foodmenucard (1).png",
             FoodMenuName:"Chicken Noodles",
             FoodMenuPara:"It's a testament to our.",
             FoodMenuPrice:"Rs.154.99"
         },
         {
-            FoodMenuImg:"./Image/Illustration/Foodmenucard (2).png",
+            FoodMenuImg:"/Image/Illustration/Foodmenucard (2).png",
             FoodMenuName:"Chicken Pizza",
             FoodMenuPara:"It's a testament to our.",
             FoodMenuPrice:"Rs.115.99"
         },
         {
-            FoodMenuImg:"./Image/Illustration/Foodmenucard (3).png",
+            FoodMenuImg:"/Image/Illustration/Foodmenucard (3).png",
             FoodMenuName:"Chicken White Rice",
             FoodMenuPara:"It's a testament to our.",
             FoodMenuPrice:"Rs.135.99"
         },
         {
-            FoodMenuImg:"./Image/Illustration/Foodmenucard (4).png",
+            FoodMenuImg:"/Image/Illustration/Foodmenucard (4).png",
             FoodMenuName:"Grilled Chicken",
             FoodMenuPara:"It's a testament to our.",
             FoodMenuPrice:"Rs.55.99"
         },
         {
-            FoodMenuImg:"./Image/Illustration/Foodmenucard (5).png",
+            FoodMenuImg:"/Image/Illustration/Foodmenucard (5).png",
             FoodMenuName:"Spatial Barger",
             FoodMenuPara:"It's a testament to our.",
             FoodMenuPrice:"Rs.254.99"
         },
         {
-            FoodMenuImg:"./Image/Illustration/Foodmenucard (6).png",
+            FoodMenuImg:"/Image/Illustration/Foodmenucard (6).png",
             FoodMenuName:"Vegetables Burger",
             FoodMenuPara:"It's a testament to our.",
             FoodMenuPrice:"Rs.94.99"
         },
         {
-            FoodMenuImg:"./Image/Illustration/Foodmenucard (7).png",
+            FoodMenuImg:"/Image/Illustration/Foodmenucard (7).png",
             FoodMenuName:"Chinese Pasta",
             FoodMenuPara:"It's a testament to our.",
             FoodMenuPrice:"Rs.254.99"
         },
         {
-            FoodMenuImg:"./Image/Illustration/Foodmenucard (8).png",
+            FoodMenuImg:"/Image/Illustration/Foodmenucard (8).png",
             FoodMenuName:"Brief Chicken",
             FoodMenuPara:"It's a testament to our.",
             FoodMenuPrice:"Rs.654.99"
         },
         {
-            FoodMenuImg:"./Image/Illustration/Foodmenucard (9).png",
+            FoodMenuImg:"/Image/Illustration/Foodmenucard (9).png",
             FoodMenuName:"Egg and Cucumber",
             FoodMenuPara:"It's a testament to our.",
             FoodMenuPrice:"Rs.84.99"
         },
         {
-            FoodMenuImg:"./Image/Illustration/Foodmenucard (10).png",
+            FoodMenuImg:"/Image/Illustration/Foodmenucard (10).png",
             FoodMenuName:"Chicken Fried Rice",
             FoodMenuPara:"It's a testament to our.",
             FoodMenuPrice:"Rs.454.99"
@@ -273,17 +273,17 @@ const App= ()=>{
 
     const ChefeData=[
         {
-            ChefeImg:"./Image/Illustration/ChefeImg (1).png",
+            ChefeImg:"/Image/Illustration/ChefeImg (1).png",
             ChefeName:"Ronald Richards",
             ChefePosition:"Senior Cooker"
         },
         {
-            ChefeImg:"./Image/Illustration/ChefeImg (2).png",
+            ChefeImg:"/Image/Illustration/ChefeImg (2).png",
             ChefeName:"Rahl Pawar",
             ChefePosition:"Chefe Manager"
         },
         {
-            ChefeImg:"./Image/Illustration/ChefeImg (3).png",
+            ChefeImg:"/Image/Illustration/ChefeImg (3).png",
             ChefeName:"Marvin Jadhav",
             ChefePosition:"Main Chefe"
         },
@@ -294,7 +294,7 @@ const App= ()=>{
     const FoodNewsHeading="Our Latest Foods News";
     const FoodNewsData=[
         {
-            FoodNewsImg:"./Image/Illustration/FoodNewsImg (1).jpg",
+            FoodNewsImg:"/Image/Illustration/FoodNewsImg (1).jpg",
             FoodNewsDate:"17 Dec",
             FoodNewsAdmin:"By Admin",
             FoodNewsTags:"Chicken",
@@ -303,7 +303,7 @@ const App= ()=>{
         },
         
         {
-            FoodNewsImg:"./Image/Illustration/FoodNewsImg (2).jpg",
+            FoodNewsImg:"/Image/Illustration/FoodNewsImg (2).jpg",
             FoodNewsDate:"27 Dec",
             FoodNewsAdmin:"By Admin",
             FoodNewsTags:"Chicken",
@@ -311,7 +311,7 @@ const App= ()=>{
             FoodNewsRead:"Read More"
         },
         {
-            FoodNewsImg:"./Image/Illustration/FoodNewsImg (2).jpg",
+            FoodNewsImg:"/Image/Illustration/FoodNewsImg (2).jpg",
             FoodNewsDate:"7 Nov",
             FoodNewsAdmin:"By Admin",
             FoodNewsTags:"Chicken",
@@ -319,7 +319,7 @@ const App= ()=>{
             FoodNewsRead:"Read More"
         },
         {
-            FoodNewsImg:"./Image/Illustration/FoodNewsImg (3).jpg",
+            FoodNewsImg:"/Image/Illustration/FoodNewsImg (3).jpg",
             FoodNewsDate:"15 Dec",
             FoodNewsAdmin:"By Admin",
             FoodNewsTags:"Chicken",
