@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Maven+Pro:wght@400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Maven Pro", sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.main-nav{
+    background-color: #010F1C;
+    padding: 30px 20px 30px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+}
+.nav-ul{
+    list-style: none;
+    display: none;
+    }
+.nav-a{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+.nav-icons{
+    display:flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.nav-icons a i{
+    color: white;
+}
+
+/* HOVER PART */
+.nav-a:hover{
+    color: #E86F19;
+    border-bottom:2px solid white ;
+}
+.nav-icons a i:hover{
+    color: #E86F19;
+}
+
+@media (min-width: 768px){
+    .nav-icons{
+        column-gap: 50px;
+    }
+    .nav-icons a i{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px){
+    .nav-ul{
+        list-style: none;
+        display: block;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 50px;
+    }
+    .nav-icons{
+        column-gap: 50px;
+    }
+}

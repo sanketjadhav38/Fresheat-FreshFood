@@ -1,0 +1,123 @@
+.FoodMenuSection{
+    padding: 150px 0px 50px 0px;
+    background-color: #F4F1EA ;
+}
+.FoodMenuDiv{
+    border-radius: 22px;
+    background-color: white;
+}
+.FoodMenuHeading{
+    text-align: center;
+    padding-top: 60px;
+}
+.FoodMenuHeading p b{
+    color: orange;
+}
+.FoodMenuHeading h6{
+    font-size: 45px;
+    font-weight: 700;
+}
+.FoodMenuChoice{
+    border-bottom: 1px solid rgb(155, 152, 152);
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 30px 0px 10px 0px;
+    text-align: center;
+}
+.FoodMenuChoiceDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+.FoodMenuChoicePara{
+    padding-top: 25px;
+}
+.FoodMenuCard{
+    padding-top: 50px;
+}
+.FoodMenuCardDiv{
+    padding: 30px 10px 30px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.FoodMenuCardDiv:hover{
+    background-color: orange ;
+    border-radius: 15px;
+}
+.FoodMenuCardDiv:hover .FoodMenuName,
+.FoodMenuCardDiv:hover .FoodMenuPara,
+.FoodMenuCardDiv:hover .FoodMenuPrice p b{
+    color: white;
+}
+.FoodMenuCardName{
+    padding-left: 10px;
+}
+.FoodMenuName{
+    font-size: 16px;
+    font-weight: 700;
+}
+.FoodMenuPrice p b{
+    color: red;
+}
+.FoodMenuPrice{
+    padding-top: 10px;
+}
+.FoodMenuAdd{
+    padding: 60px 0px 20px 0px;
+}
+.FoodMenuAddSection{
+    font-size: 150px;
+}
+.FoodMenuAdd{
+    overflow-x: hidden;
+}
+.FoodMenuAddSection {
+    overflow-x: hidden;
+    color: gray;
+    display: inline-block;
+    white-space: nowrap;
+    animation: scrollText 30s linear infinite;
+    font-size: 104px;
+    font-weight: bold;
+    }
+
+    @keyframes scrollText {
+      from { transform: translateX(100vw); }
+      to   { transform: translateX(-100%); }
+    }
+
+.FoodMenuAddSection:hover{
+    color: red;
+}
+
+@media (min-width:768px){
+    .FoodMenuChoice{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 50px;
+        padding: 0px 150px 0px 150px;
+    }
+    .FoodMenuPrice{
+        padding-left: 300px;
+    }
+}
+
+@media (min-width:1024px){
+    .FoodMenuCard{
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 180px;
+    }
+    .FoodMenuPrice{
+        padding-left: 100px;
+    }
+}

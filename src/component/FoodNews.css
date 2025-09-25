@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.FoodNews-Section{
+    background-color: #F4F1EA;
+    padding-bottom: 100px;
+}
+.FoodNewsTitle b{
+    color: orange;
+}
+.FoodNewsHeading {
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.FoodNews-Caption{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+.FoodNews-Card{
+    height: 450px;
+    background-color: white;
+}
+.FoodNews-Card:hover{
+    background-color: orange;
+}
+.FoodNews-Card:hover .FoodNewsDate{
+    background-color: red;
+}
+.FoodNews-Card:hover .FoodNewsAdmin,
+.FoodNews-Card:hover .FoodNewsTags,
+.FoodNews-Card:hover .FoodNewsHead{
+    color: white;
+}
+.FoodNews-Card:hover .FoodNewsRead{
+    color: red;
+    text-decoration: underline;
+}
+.FoodNewsDate{
+    padding: 0px;
+    text-align: center;
+    width: 60px;
+    height: 65px;
+    background-color: red;
+    color: white;
+    font-weight: 800;
+    font-size: 22px;
+}
+.FoodNews-Caption{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.FoodNewsHead{
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.FoodNewsRead{
+    color: gray;
+}
+.FoodNews-MainDiv{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+@media(min-width:768px){
+    .FoodNews-MainDiv{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 20px;
+    }
+    .FoodNews-Card{
+        width: 320px;
+    }
+}
+
+
+@media(min-width:1024px){
+    .FoodNews-MainDiv{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 20px;
+    }
+    .FoodNews-Card{
+        width: 300px;
+    }
+}

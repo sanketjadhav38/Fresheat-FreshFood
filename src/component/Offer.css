@@ -1,0 +1,64 @@
+
+.offer-section{
+    background-color: #F4F1EA;
+}
+.offer-card{
+    padding-top: 80px;
+    height: 600px;
+    background-image: url("./Image/Background-Images/offer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid #F4F1EA ;
+}
+.offertitle{
+    color: red;
+    font-weight: 800;
+}
+.offerDish{
+    padding-top: 10px;
+    color: white;
+    font-size: 22px;
+    font-weight: 900;
+}
+.offertime{
+    color: rgb(255, 168, 7);
+    font-weight: 600;
+}
+.offerBtn{
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.offerBtn:hover{
+    background-color: transparent;
+    border: 1px solid red;
+}
+.offerBtn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.offerimg{
+    padding-top: 30px;
+}
+
+@media(min-width:768px){
+    .offer-card{
+        padding:0px 12px 0px 12px;
+        height: 350px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media(min-width:1024px){
+    .offer-section{
+        padding: 0px 12px 80px 12px;
+    }
+}

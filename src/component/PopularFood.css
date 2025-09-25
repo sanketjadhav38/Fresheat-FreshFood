@@ -1,0 +1,89 @@
+.PopularFood-section{
+    background-color: #F4F1EA;
+    padding: 20px 0px 80px 0px;
+}
+
+.PopularFood-heading h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.PopularFoodTitle b{
+    font-size: 20px;
+    color: orange;
+}
+.heading{
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.food-items{
+    padding-top: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
+.food-item{
+    padding: 20px 0px 0px 0px;
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+}
+.food-item:hover{
+    background-color: orange;
+}
+.food-item:hover .dish-name b,
+.food-item:hover span,
+.food-item:hover .dish-price b{
+    color: white;
+}
+.food-item img{
+    width: 158px;
+    height: 158px;
+}
+.food-item p{
+    padding: 10px 0px 0px 0px;
+}
+.food-item span{
+    color: gray;
+}
+.dish-price b{
+    padding: 0px 0px 20px 0px;
+    color: red;
+}
+
+@media(min-width:768px){
+    .food-items{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 50px;
+    }
+}
+
+@media(min-width:1024px){
+    .food-items{
+        column-gap: 200px;
+    }
+    .PopularFood-heading h2{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .poular-img{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .PopularFood-heading{
+        position: relative;
+        bottom: 100px;
+    }
+    .food-items{
+        position: relative;
+        bottom: 100px;
+    }
+}

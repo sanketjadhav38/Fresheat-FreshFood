@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.ChefeSection{
+    background-color: #F4F1EA;
+    padding-bottom: 100px;
+}
+.ChefeTitle b{
+    color: orange;
+}
+.ChefeHeading {
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-weight: 900;
+}
+figure{
+    width: 290px;
+    height: 450px;
+    background-color: white;
+    border-radius:100px 100px 0px 0px ;
+}
+.ChefeName{
+    padding-top: 20px;
+    font-size: 24px;
+}
+figure:hover{
+    background-color: orange;
+}
+figure:hover .ChefeName b,
+figure:hover .ChefePosition{
+    color: white;
+}
+@media(min-width:768px){
+    .ChefePerson{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width:1024px){
+    .ChefePerson{
+        display: flex;
+        flex-direction: row;
+        column-gap: 150px;
+        
+    }
+}

@@ -1,0 +1,59 @@
+.TodaySpecial-section{
+    background-image: url(./Image/Background-Images/offer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.TodaySpecialImg1{
+    padding-top: 100px;
+}
+.TodaySpecialTitle{
+    padding: 30px 0px 20px 0px;
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+}
+.TodaySpecialHeading{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+}
+.TodaySpecialTime{
+    color: orange;
+    font-size: 20px;
+    font-weight: 600;
+}
+.TodaySpecialBtn{
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.TodaySpecialBtn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.TodaySpecialBtn:hover{
+    background-color: transparent;
+    border: 2px solid red;
+}
+.TodaySpecialBtn:hover a{
+    color: red;
+}
+@media (min-width:1024px){
+    .TodaySpecial-section{
+        background-position: bottom;
+        height: 600px;
+    }
+    .TodaySpecial-div{
+        padding-top: 50px;
+    }
+    .TodaySpecialStickerUp{
+        width: 100px;
+        height: 100px;
+    }
+    
+}

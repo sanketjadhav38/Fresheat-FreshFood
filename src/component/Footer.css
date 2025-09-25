@@ -1,0 +1,155 @@
+.footer-bg {
+    padding: 80px 0px 80px 0px;
+    background-color: #010F1C;
+}
+
+.FooterContact {
+    background-color: #FC791A;
+    border-radius: 20px;
+}
+
+.ContactIcon i {
+    font-size: 18px;
+    color: #FC791A;
+}
+
+.ContactIcon {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FooterContact-div1 {
+    padding: 20px 0px 20px 0px;
+}
+
+.FooterContact-div2 {
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.ContactAddressTitle {
+    font-weight: 800;
+}
+
+.ContactAddressTitle,
+.ContactAddress {
+    color: white;
+    margin: 0px;
+}
+
+.FooterLogo-Div {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.FooterLogoBelow {
+    padding-top: 35px;
+    color: white;
+}
+
+.FooterSocialMedia {
+    padding-top: 15px;
+    display: flex;
+    column-gap: 25px;
+}
+
+.FooterSocialMedia nav i {
+    color: white;
+}
+
+.FooterSocialMedia nav {
+    padding: 10px;
+    border: 1px solid gray;
+}
+.FooterSocialMedia nav:hover{
+    background-color: red;
+}
+.QuickLinklist li a{
+    color: white;
+}
+.QuickLinklist li a:hover{
+    color: red;
+}
+.QuickLinkTitle,
+.OurMenuTitle,
+.ContactUsTitle {
+    color: white;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.ContactUsTime1,
+.ContactUsTime2 {
+    color: #FC791A;
+}
+
+.ContactUsTerms {
+    color: white;
+}
+
+.email {
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+}
+
+.email-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 95%;
+    background: white;
+}
+
+.email-box input {
+    border: none;
+    outline: none;
+    padding: 12px;
+    flex: 1;
+    font-size: 16px;
+}
+
+.email-box button {
+    background: #ff6600;
+    border: none;
+    padding: 12px 18px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.email-box button:hover {
+    background: #e65c00;
+}
+
+@media (min-width:768px){
+    .FooterLogo-Div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 50px;
+    }
+    .FooterLogo, .QuickLink, .OurMenu, .ContactUs{
+        width: 300px;
+    }
+}
+
+@media (min-width:1024px){
+    .FooterLogo-Div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 20px;
+    }
+}
