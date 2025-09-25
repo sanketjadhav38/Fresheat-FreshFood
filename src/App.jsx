@@ -48,6 +48,8 @@ const App= ()=>{
 
     const PopularFoodTitle="Best Food"
     const PopularFoodHeading="Popular Food Items"
+    const PopularFoodBurger="./Image/Illustration/Burger-sticker.png";
+    const PopularFoodChilli="./Image/Illustration/chilli (1).png";
 
     const PopularFoodData=[
         {
@@ -384,7 +386,7 @@ const App= ()=>{
 
             <Header slides={carouselData} />
 
-            <PopularFood food={PopularFoodData} heading={PopularFoodHeading} PopularFoodTitle={PopularFoodTitle}/>
+            <PopularFood food={PopularFoodData} heading={PopularFoodHeading} PopularFoodTitle={PopularFoodTitle} PopularFoodBurger={PopularFoodBurger} PopularFoodChilli={PopularFoodChilli} />
 
             <Offer offer={offerData}/>
 

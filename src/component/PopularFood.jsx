@@ -6,8 +6,8 @@ let PopularFood = (props) => {
         <section className=" PopularFood-section" >
             <div className="">
                 <div className="poular-img">
-                    <img className="chilli-img d-none d-lg-block" src="/public/Image/Illustration/Burger-sticker.png" alt="" />
-                    <img className="burger-img d-none d-lg-block" src="/public/Image/Illustration/chilli (1).png" alt="" />
+                    <img className="chilli-img d-none d-lg-block" src={props.PopularFoodBurger} alt="" />
+                    <img className="burger-img d-none d-lg-block" src={props.PopularFoodChilli} alt="" />
                 </div>
                 <div className="PopularFood-heading text-center" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                     <span className="PopularFoodTitle"><b>{props.PopularFoodTitle}</b></span>
