@@ -28,21 +28,21 @@ const App= ()=>{
                 carouselPara: "WELCOME FRESHEAT",
                 carouselh1: "SPICY FRIED CHICKEN",
                 carouselbtn: "ORDER NOW",
-                carouselImg: "/public/Image/Illustration/imgi_21_bannerThumb1_1.png"
+                carouselImg: "./Image/Illustration/imgi_21_bannerThumb1_1.png"
             },
             {
                 active:"carousel-item ",
                 carouselPara: "WELCOME FRESHEAT",
                 carouselh1: "CHINCAGO DEEP BURGER KING",
                 carouselbtn: "ORDER NOW",
-                carouselImg: "/public/Image/Illustration/imgi_22_bannerThumb1_2.png"
+                carouselImg: "./Image/Illustration/imgi_22_bannerThumb1_2.png"
             },
             {
                 active:"carousel-item ",
                 carouselPara: "WELCOME FRESHEAT",
                 carouselh1: "SPICY FRIED CHICKEN",
                 carouselbtn: "ORDER NOW",
-                carouselImg: "/public/Image/Illustration/imgi_20_bannerThumb1_3.png"
+                carouselImg: "./Image/Illustration/imgi_20_bannerThumb1_3.png"
             }
             ];
 
@@ -51,38 +51,38 @@ const App= ()=>{
 
     const PopularFoodData=[
         {
-            dish1Img:"/public/Image/Illustration/Popular-Food (1).png",
+            dish1Img:"./Image/Illustration/Popular-Food (1).png",
             dish1Name:"Chicken Pizza",
             dish1Fee:"The Registration Fee",
             dish1Price:"Rs.250"
         },
         {
-            dish1Img:"/public/Image/Illustration/Popular-Food (2).png",
+            dish1Img:"./Image/Illustration/Popular-Food (2).png",
             dish1Name:"Veg Pasta",
             dish1Fee:"The Registration Fee",
             dish1Price:"Rs.150"
         },
         {
-            dish1Img:"/public/Image/Illustration/Popular-Food (3).png",
+            dish1Img:"./Image/Illustration/Popular-Food (3).png",
             dish1Name:"Chicken Pasta",
             dish1Fee:"The Registration Fee",
             dish1Price:"Rs.350"
         },
         {
-            dish1Img:"/public/Image/Illustration/Popular-Food (4).png",
+            dish1Img:"./Image/Illustration/Popular-Food (4).png",
             dish1Name:"Chicken Tandori",
             dish1Fee:"The Registration Fee",
             dish1Price:"Rs.450"
         },
         {
             comment:"d-none d-md-block",
-            dish1Img:"/public/Image/Illustration/Popular-Food (4).png",
+            dish1Img:"./Image/Illustration/Popular-Food (4).png",
             dish1Name:"Chicken Tandori",
             dish1Fee:"The Registration Fee",
             dish1Price:"Rs.450"
         },
         {
-            dish1Img:"/public/Image/Illustration/Popular-Food (1).png",
+            dish1Img:"./Image/Illustration/Popular-Food (1).png",
             dish1Name:"Chicken Pizza",
             dish1Fee:"The Registration Fee",
             dish1Price:"Rs.250"
@@ -95,21 +95,21 @@ const App= ()=>{
             offerDish:"SPICY FRIED CHICKEN",
             offerTime:"Limits Time Offer",
             offerBtn:"ORDER NOW",
-            offerimg:"/public/Image/Illustration/offer-img (2).png"
+            offerimg:"./Image/Illustration/offer-img (2).png"
         },
         {
             offertitle:"WELCOME FRESHEAT",
             offerDish:"TODAY SPACIAL FOOD",
             offerTime:"Limits Time Offer",
             offerBtn:"ORDER NOW",
-            offerimg:"/public/Image/Illustration/offer-img (3).png"
+            offerimg:"./Image/Illustration/offer-img (3).png"
         },
         {
             offertitle:"ON THIS WEEK",
             offerDish:"SPECIAL CHICKEN ROLL",
             offerTime:"Limits Time Offer",
             offerBtn:"ORDER NOW",
-            offerimg:"/public/Image/Illustration/offer-img (1).png"
+            offerimg:"./Image/Illustration/offer-img (1).png"
         },
 
     ]
