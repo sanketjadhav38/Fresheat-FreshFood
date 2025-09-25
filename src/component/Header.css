@@ -5,7 +5,7 @@
     background-image: url('/Image/Background-Images/bg-header.jpg');
 }
 .header-welcome{
-    color: #E86F19;
+    color: red;
     font-size: 20px;
     font-weight: 800;
 }
