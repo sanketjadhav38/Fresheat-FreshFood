@@ -6,7 +6,7 @@ const About = (props)=>{
         <section className="container-fluid about-section">
             <div className="row">
                 <img className="d-none d-lg-block col-lg-4 p-0 aboutImgLeft" src={props.aboutImgLeft} alt="" />
-            <div className="text-center col-lg-4 about-middle-div " data-aos="fade-down" data-aos-duration="3000">
+            <div className="text-center col-lg-4 about-middle-div " >
                 <span className="aboutTitle">{props.aboutTitle}</span>
                 <h3 className="aboutHeading">{props.aboutHeading}</h3>
                 <p className="aboutDetail">{props.aboutDetail}</p>
