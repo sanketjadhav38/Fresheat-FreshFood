@@ -5,7 +5,7 @@ let Navigation = (props) => {
     const navItem = props.nav
     const navIcons = props.icon
     return (
-        <div className="main-nav" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+        <div className="main-nav" >
 
             <a href=""><img className="logo" src={props.logos} alt="" /></a>
 
